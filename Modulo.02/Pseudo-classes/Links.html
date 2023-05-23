@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de links</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgb(243, 214, 255);
+        }
+        .especial {
+            background-color: rgb(214, 146, 244);
+        }
+
+        a {
+            text-decoration: none;
+        }
+        a:visited {
+            color: rgb(87, 0, 124);
+        }
+        a:hover {
+            color: rgb(189, 36, 255);
+            background-color: rgb(235, 192, 254);
+            text-decoration: underline;
+        }
+        a::after{
+            content: ' «';
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalizando links com sub-classes</h1>
+    <ul>
+        <li><a href="https://www.youtube.com/playlist?list=PLRIdki9k4L0nUg7jcs4isrCXXod5rd7YF" target="_blank"> Playlist de músicas do Youtube</a></li>
+
+        <li><a href="https://www.youtube.com/playlist?list=PLHz_AreHm4dlUpEXkY1AyVLQGcpSgVF8s" target="_blank" class="especial"> Curso de HTML e CSS módulo II</a></li>
+    </ul>
+</body>
+</html>

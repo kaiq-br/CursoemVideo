@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tratamento de imagens</title>
+</head>
+<body>
+    <h1>Tratamento de imagens</h1>
+    <p>Tratando imagens para diferentes tamanhos de tela</p>
+    <picture>
+        <source media="(max-width: 900px)" srcset="Imagens/Pequeno.png" 
+        type="image/png"> <!--Imagem pequena-->
+
+        <source media="(max-width: 1050px)" srcset="Imagens/Media.png" 
+        type="image/png"> <!--Imagem media-->
+
+        <img src="Imagens/Grande.png" alt="Imagem grande"> <!--Imagem comum-->
+    </picture>
+
+    <h1>Reprodução de audio</h1>
+    <p>Aprendendo a trabalhar com audios(Estes arquivos foram tirados 
+        do Youtube Studio)</p>
+    <ul>
+        <li><p>Forest Lullabye - Asher Fulero</p>
+        <audio preload="metadata" controls>
+        <source src="audios/Forest Lullabye - Asher Fulero.mp3" type="audio/mp3">
+        </audio></li>
+
+        <li><p>Golden Cage - Jimena Contreras</p>
+        <audio preload="metadata" controls>
+        <source src="audios/Golden Cage - Jimena Contreras.mp3" type="audio/mp3">
+        </audio></li>
+
+        <li><p>Natural Light - Chris Haugen</p>
+        <audio preload="metadata" controls>
+        <source src="audios/Natural Light - Chris Haugen.mp3" type="audio/mp3">
+        </audio></li>
+    </ul>
+
+    <h1>Reprodução de video</h1>
+    <p>Tentando colocar alguns videos nesse site</p>
+
+    <video width="500" controls>
+        <source src="videos/Frutas(Alterado).mp4" type="video/mp4">
+        <p>Seu navegador não suporta esse tipo de arquivo</p>
+    </video>
+
+    <video width="500" controls>
+        <source src="videos/Carinha de demon slayer(Alterado).mp4" type="video/mp4">
+        <p>Seu navegador não suporta esse tipo de arquivo</p>
+    </video>
+
+    <p> Inserindo videos direto do Youtube</p>
+    <iframe width="500" height="280"
+    src="https://www.youtube.com/embed/OzUnqQk4eOg" 
+    title="YouTube video player" frameborder="0" 
+    allow="accelerometer; clipboard-write; encrypted-media; 
+    gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</body>
+</html>
