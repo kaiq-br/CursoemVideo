@@ -1,2 +1,2 @@
 # CursoemVideo
- Aprendendo Curso em video
+ Estou re-Aprendendo HTML5 com a Curso em video :>
