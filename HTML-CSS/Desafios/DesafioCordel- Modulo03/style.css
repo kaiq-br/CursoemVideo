@@ -80,7 +80,14 @@ footer {
     background-color: black;
     color: white;
     text-align: center;
-    padding: 1px 0px;
+    padding: 10px 0px;
+}
+
+footer strong {
+    background-color: #C25334;
+    padding: 3px 8px;
+    font-size: 20px;
+    color: black;
 }
 
 footer a{
