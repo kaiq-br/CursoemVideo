@@ -1,3 +1,8 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
 header{
     background-color: black;
     padding: 1em;
@@ -14,7 +19,7 @@ header h1 {
 header p{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: white;
-    font-size: 1.3em;
+    font-size: 1.2em;
 }
 
 header a{
@@ -29,6 +34,45 @@ header a:hover{
 }
 
 main pre{
+    display: inline-block;
     font-family: cursive;
-    font-size: 1.1em;
+    font-size: 2em;
+}
+
+section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+}
+
+section.imagem {
+    color: white;
+    text-shadow: 1px 1px black;
+    box-shadow: inset 13px 0px 12px rgba(0, 0, 0, 0.689);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+section.imagem pre{
+    background-color: rgba(90, 90, 90, 0.217);
+}
+
+#joaninha {
+    background-image: url(imagens/background001.jpg);
+    background-size: 800px;
+    background-position: right center;
+}
+
+footer {
+    background-color: black;
+    text-align: center;
+    padding: 1px 0px;
+}
+footer p{
+    color: white;
+}
+
+footer a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
 }
