@@ -1,3 +1,12 @@
+.root{
+    --cor1: #F7A38D;
+    --cor2: #f57855;
+    --cor3: #C25334;
+    --cor4: #753D2E;
+    --cor5: #753220;
+
+}
+
 * {
     margin: 0px;
     padding: 0px;
@@ -5,6 +14,7 @@
 
 header{
     background-color: black;
+    color: white;
     padding: 1em;
     margin: 0px 0px;
     text-align: center;
@@ -12,13 +22,11 @@ header{
 
 header h1 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: white;
     font-size: 2.7em;
 }
 
 header p{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color: white;
     font-size: 1.2em;
 }
 
@@ -29,19 +37,22 @@ header a{
 }
 
 header a:hover{
-    color: cornflowerblue;
+    color: #F7A38D;
     transition-duration: 0.6s;
+}
+
+main {
+    background-image: linear-gradient(to bottom, #F7A38D,#f57855, #C25334);
 }
 
 main pre{
     display: inline-block;
     font-family: cursive;
-    font-size: 2em;
+    font-size: 1.8em;
 }
 
 section {
-    padding-top: 10vh;
-    padding-bottom: 10vh;
+    padding-top: 5vh;
 }
 
 section.imagem {
@@ -58,21 +69,27 @@ section.imagem pre{
 
 #joaninha {
     background-image: url(imagens/background001.jpg);
-    background-size: 800px;
     background-position: right center;
+}
+
+#cartas {
+    background-image: url(imagens/background002.jpg);
 }
 
 footer {
     background-color: black;
+    color: white;
     text-align: center;
     padding: 1px 0px;
-}
-footer p{
-    color: white;
 }
 
 footer a{
     color: white;
     text-decoration: none;
     font-weight: bold;
+}
+
+footer a:hover{
+    color: #C25334;
+    transition-duration: 0.6s;
 }
