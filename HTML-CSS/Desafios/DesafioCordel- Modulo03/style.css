@@ -1,10 +1,14 @@
-.root{
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Passion+One&display=swap');
+
+:root {
+    --titulo: 'Passion One', cursive;
+
     --cor1: #F7A38D;
     --cor2: #f57855;
     --cor3: #C25334;
     --cor4: #753D2E;
     --cor5: #753220;
-
 }
 
 * {
@@ -25,9 +29,9 @@ header{
 }
 
 header h1 {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: var(--titulo);
     font-variant: small-caps;
-    font-size: 2.7em;
+    font-size: 10vw;
 }
 
 header p{
@@ -42,19 +46,19 @@ header a{
 }
 
 header a:hover{
-    color: #F7A38D;
+    color: var(--cor1);
     transition-duration: 0.6s;
     text-decoration: underline;
 }
 
 main {
-    background-image: linear-gradient(to bottom, #F7A38D,#f57855, #C25334);
+    background-image: linear-gradient(to bottom, var(--cor1), var(--cor2), var(--cor3));
 }
 
 main pre{
     display: inline-block;
     font-family: cursive;
-    font-size: 1.8em;
+    font-size: 4vw;
 }
 
 section {
@@ -90,7 +94,7 @@ footer {
 }
 
 footer strong {
-    background-color: #C25334;
+    background-color: var(--cor3);
     padding: 3px 8px;
     font-size: 20px;
     color: black;
@@ -103,6 +107,6 @@ footer a{
 }
 
 footer a:hover{
-    color: #C25334;
+    color: var(--cor3);
     transition-duration: 0.6s;
 }
