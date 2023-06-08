@@ -8,12 +8,23 @@
     <style>
         table {
             width: 400px;
+            height: 200px;
             border-collapse: collapse;
+        }
+
+        tr.linha {
+            background-color: rgb(114, 114, 114)
         }
 
         td {
             border: 1px solid black;
             padding: 0px 10px;
+            text-align: center;
+            vertical-align: bottom;
+        }
+
+        td.numero{
+            text-align: right;
         }
     </style>
 </head>
@@ -23,17 +34,17 @@
         <tr> <!-- Primeira Linha -->
             <td>A1</td>
             <td>B1</td>
-            <td>C1</td>
+            <td class="numero">100</td>
         </tr>
-        <tr> <!-- Segunda Linha-->
+        <tr class="linha"> <!-- Segunda Linha-->
             <td>A2</td>
             <td>B2</td>
-            <td>C2</td>
+            <td class="numero">200</td>
         </tr>
         <tr> <!-- Terceira Linha-->
             <td>A3</td>
             <td>B3</td>
-            <td>C3</td>
+            <td class="numero">400</td>
         </tr>
     </table>
 </body>
