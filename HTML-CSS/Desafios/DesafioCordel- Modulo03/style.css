@@ -75,16 +75,15 @@ section.imagem {
 
 section.imagem pre{
     background-color: rgba(90, 90, 90, 0.217);
+    background-position: right center;
 }
 
 #joaninha {
     background-image: url(imagens/background001.jpg);
-    background-position: right center;
 }
 
 #cartas {
     background-image: url(imagens/background002.jpg);
-    background-position: right center;
 }
 
 footer {
